@@ -1,2 +1,2 @@
 # Neural-networks
-Collection of neural nets built from scratch
+Collection of simple neural nets built from scratch
