@@ -1,6 +1,6 @@
 # Neural-networks
-Simple recurrent neural nets built from scratch to learn more in depth
-Topic covered:
+Recurrent neural nets built from scratch to learn more in depth.
+Concepts covered:
 - Back-Propgation algorithm
 - Feed forward
 - Single Layer Perceptron
@@ -10,4 +10,17 @@ Topic covered:
 - Input, Hidden, Output Nodes
 - Mathematical computations
 
+Learning material:
+
+Deep learning concept guide
+
+http://neuralnetworksanddeeplearning.com/chap1.html
+
+Tensorflow Neural Network playground
+
+https://www.tensorflow.org
+
+Introduction to Neural Networks MIT
+
+https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-641j-introduction-to-neural-networks-spring-2005/
 
