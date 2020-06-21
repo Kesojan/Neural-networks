@@ -1,7 +1,10 @@
 # Neural-networks
+## Objective
 Recurrent neural nets built from scratch to learn more in depth.
-Concepts covered:
-- Back-Propgation algorithm
+
+## Concepts covered
+
+- Backpropagation algorithm
 - Feed forward
 - Single Layer Perceptron
 - Multi Layer Perceptron
@@ -10,7 +13,7 @@ Concepts covered:
 - Input, Hidden, Output Nodes
 - Mathematical computations
 
-Learning material:
+## Learning material
 
 Deep learning concept guide
 
