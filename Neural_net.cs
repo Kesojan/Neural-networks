@@ -102,28 +102,7 @@ public class NeuralNetwork
             InitilizeWeights(); //initilize weights
         }
 
-        /// Feedforward this layer with a given input
-        /// <param name="inputs">The output values of the previous layer</param>
-        /// <returns></returns>
-        public float[] FeedForward(float[] inputs)
-        {
-            this.inputs = inputs;// keep shallow copy which can be used for back propagation
-
-            //feed forwards
-            for (int i = 0; i < numberOfOuputs; i++)
-            {
-                outputs[i] = 0;
-                for (int j = 0; j < numberOfInputs; j++)
-                {
-                    outputs[i] += inputs[j] * weights[i, j];
-                }
-
-                outputs[i] = (float)Math.Tanh(outputs[i]);
-            }
-
-            return outputs;
-        }
-
+        
         /// TanH derivate 
         /// <param name="value">An already computed TanH value</param>
         /// <returns></returns>
