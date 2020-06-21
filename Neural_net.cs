@@ -156,46 +156,6 @@ public class NeuralNetwork
             }
         }
 
-        /// <summary>
-        /// Back propagation for the hidden layers
-        /// </summary>
-        /// <param name="gammaForward">the gamma value of the forward layer</param>
-        /// <param name="weightsFoward">the weights of the forward layer</param>
-        public void BackPropHidden(float[] gammaForward, float[,] weightsFoward)
-        {
-            //Caluclate new gamma using gamma sums of the forward layer
-            for (int i = 0; i < numberOfOuputs; i++)
-            {
-                gamma[i] = 0;
-
-                for (int j = 0; j < gammaForward.Length; j++)
-                {
-                    gamma[i] += gammaForward[j] * weightsFoward[j, i];
-                }
-
-                gamma[i] *= TanHDer(outputs[i]);
-            }
-
-            //Caluclating detla weights
-            for (int i = 0; i < numberOfOuputs; i++)
-            {
-                for (int j = 0; j < numberOfInputs; j++)
-                {
-                    weightsDelta[i, j] = gamma[i] * inputs[j];
-                }
-            }
-        }  
-
-        /// Updating weights
-        public void UpdateWeights()
-        {
-            for (int i = 0; i < numberOfOuputs; i++)
-            {
-                for (int j = 0; j < numberOfInputs; j++)
-                {
-                    weights[i, j] -= weightsDelta[i, j]*0.033f;
-                }
-            }
-        }
-    }
+       
+       }
 }
