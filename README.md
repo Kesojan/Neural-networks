@@ -1,6 +1,6 @@
 # Neural-networks
 ## Objective
-Recurrent neural nets built from scratch to learn more in depth.
+Recurrent and convolutional neural nets built from scratch to learn more in depth.
 
 ## Concepts covered
 
