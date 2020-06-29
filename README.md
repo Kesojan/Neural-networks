@@ -1,7 +1,6 @@
 # Neural-networks
 ## Objective
-Recurrent and convolutional neural nets built from scratch to learn more in depth.
-
+Build and design forward pass and backpropagation algorithms for fully connected, recurrent and convolutional neural networks without the use of external machine learning libraries.
 ## Concepts covered
 
 - Backpropagation algorithm
